@@ -1,0 +1,247 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222;
+    background-color: #f9f9f9;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    z-index: 1000;
+    background-color: transparent;
+    transition: background-color 0.5s;
+}
+
+.navbar:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar ul {
+    margin-left: auto;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: orange;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+.navbar:hover ul li a {
+    color: white;
+}
+
+
+/* Main Content */
+.main-content {
+    max-width: 1200px;
+    margin: 110px auto 50px;
+    padding: 0 20px;
+    text-align: center;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 10%;
+}
+
+/* Welcome Section */
+.welcome-section h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.welcome-section p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 50px;
+    color: #555;
+}
+
+/* Product Spotlight */
+.product-spotlight {
+    background: #fff;
+    border-radius: 12px;
+    padding: 40px 30px;
+    margin-bottom: 70px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    color: #222;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.product-spotlight h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #222;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.product-image {
+    max-width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    flex: 1 1 350px;
+}
+
+.product-info {
+    flex: 1 1 400px;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.product-info p {
+    margin-bottom: 20px;
+}
+
+.product-info ul {
+    list-style: disc inside;
+    margin-bottom: 30px;
+}
+
+.btn-buy {
+    display: inline-block;
+    background-color: #ffa500;
+    color: #222;
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-buy:hover {
+    background-color: #ff8c00;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    color: #222;
+    max-width: 900px;
+    margin: 0 auto;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.why-choose-us h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    padding: 25px 20px;
+    max-width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+}
+
+.feature i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #ff6600;
+}
+
+.feature h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #ff6600;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    margin-top: 70px;
+    font-size: 0.9rem;
+}
+
+.footer a {
+    color: #ffa500;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .product-container {
+        flex-direction: column;
+    }
+
+    .product-info {
+        text-align: center;
+    }
+
+    .features {
+        flex-direction: column;
+        gap: 25px;
+    }
+}
+
+/* Animation */
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;   
+    }
+}

@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Us | PetFit</title>
+  <link rel="shortcut icon" href="img/site_icon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="abt.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="index.html" >
+      <img src="img/logo.png" height="40" alt="PetFit Logo" />
+    </a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="abt.html">About Us</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <main class="content">
+
+    <!-- 1. Introduction -->
+    <section class="section intro-section">
+      <div class="text">
+        <h1>Welcome to PetFit</h1>
+        <p>
+          At PetFit, we believe pets deserve a lifestyle that’s active, happy,
+          and healthy. We offer curated products and services that support the
+          physical and mental well-being of your furry friends.
+        </p>
+      </div>
+      <div class="image-container">
+        <img src="img/intro.jpg" alt="Happy dog and cat" />
+      </div>
+    </section>
+
+    <!-- 2. Our Story -->
+    <section class="section story-section">
+      <div class="image-container">
+        <img src="img/our-story.jpg" alt="Our story" />
+      </div>
+      <div class="text">
+        <h2>Our Story</h2>
+        <p>
+          It all began when our founder noticed how difficult it was to find pet
+          accessories that balanced style with functionality. PetFit was born
+          out of a passion for pets and a drive to improve their daily lives.
+        </p>
+      </div>
+    </section>
+
+    <!-- 3. Mission & Vision -->
+    <section class="section mission-vision-section">
+      <div class="text">
+        <h2>Mission & Vision</h2>
+        <div class="mission-vision-grid">
+          <div>
+            <h3>Mission</h3>
+            <p>
+              To promote pet wellness through high-quality products and services.
+            </p>
+          </div>
+          <div>
+            <h3>Vision</h3>
+            <p>
+              To become the most trusted name in pet fitness and care globally.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="image-container">
+        <img src="img/mission_vision.jpg" alt="Mission and Vision" />
+      </div>
+    </section>
+
+    <!-- 4. Meet the Team -->
+    <section class="section team-section">
+      <h2>Meet the Team</h2>
+      <div class="team-container">
+        <div class="team-card">
+          <img src="img/logo.png" alt="Riya" />
+          <h3>Riya</h3>
+          <p class="role">Founder & Pet Lifestyle Expert</p>
+          <p class="bio">
+            Driven by passion, Riya created PetFit to help every pet live their best life.
+          </p>
+        </div>
+        <div class="team-card">
+          <img src="img/logo.png" alt="Arjun" />
+          <h3>Arjun</h3>
+          <p class="role">Product Designer & Animal Enthusiast</p>
+          <p class="bio">
+            Designing smart and comfy pet gear is Arjun’s thing. He’s also a proud turtle dad!
+          </p>
+        </div>
+        <div class="team-card">
+          <img src="img/logo.png" alt="Sana" />
+          <h3>Sana</h3>
+          <p class="role">Nutrition Specialist</p>
+          <p class="bio">
+            Sana makes sure your pets get the right meals at the right time.
+          </p>
+        </div>
+        <div class="team-card">
+          <img src="img/logo.png" alt="Jay" />
+          <h3>Jay</h3>
+          <p class="role">Marketing & Community Manager</p>
+          <p class="bio">
+            Jay builds the PetFit community online and offline. Loves hiking with his parrot Kiwi!
+          </p>
+        </div>
+        <div class="team-card">
+          <img src="img/logo.png" alt="Simran" />
+          <h3>Simran</h3>
+          <p class="role">Veterinary Consultant</p>
+          <p class="bio">
+            Simran ensures our products meet vet standards. Her Persian cat Snowy often joins Zoom calls.
+          </p>
+        </div>
+        <div class="team-card">
+          <img src="img/logo.png" alt="Kabir" />
+          <h3>Kabir</h3>
+          <p class="role">Customer Happiness Lead</p>
+          <p class="bio">
+            Kabir ensures PetFit fans are always smiling. Loves pets, pizza, and solving problems fast.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. What Makes Us Unique? -->
+    <section class="section unique-section">
+      <h2>What Makes Us Unique?</h2>
+      <ul class="unique-list">
+        <li>✔️ Vet-approved fitness plans</li>
+        <li>🌿 Eco-friendly accessories</li>
+        <li>🤝 Customer-first support</li>
+        <li>🐕 PetFit community & challenges</li>
+      </ul>
+      <div class="unique-image">
+        <img src="img/unique_features.jpg" alt="Unique features" />
+      </div>
+    </section>
+
+    <!-- 6. Testimonials -->
+    <section class="section testimonial-section">
+      <h2>What Our Customers Say</h2>
+      <div class="testimonials">
+        <blockquote>
+          "PetFit’s products transformed how I care for my dog. Their fitness plans really work!"
+          <footer>— Lisa K., Dog Mom</footer>
+        </blockquote>
+        <blockquote>
+          "Amazing customer support and eco-friendly products. Highly recommend PetFit!"
+          <footer>— Mark T., Cat Dad</footer>
+        </blockquote>
+      </div>
+      <div class="testimonial-image">
+        <img src="img/testimonials.jpg" alt="Happy customers" />
+      </div>
+    </section>
+
+    <!-- 7. Call to Action -->
+    <section class="section cta-section">
+      <h2>Join the PetFit Family Today!</h2>
+      <p>Explore our shop for premium pet products, subscribe to our newsletter, or follow us on social media to stay connected.</p>
+      <div class="cta-buttons">
+        <a href="#" class="btn btn-primary">Shop Now</a>
+        <a href="#" class="btn btn-secondary">Subscribe</a>
+        <a href="#" class="btn btn-social">Follow Us</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 PetFit. All rights reserved.</p>
+    <p>
+      Follow us on
+      <a href="#">Instagram</a> |
+      <a href="#">Facebook</a> |
+      <a href="#">Twitter</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    background-color: white;
+    color: black;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    z-index: 1000;
+    background-color: transparent;
+    transition: background-color 0.5s;
+}
+
+.navbar:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar ul {
+    margin-left: auto;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: orange;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+.navbar:hover ul li a {
+    color: white;
+}
+
+/* Main content wrapper */
+.content {
+  max-width: 1100px;
+  margin: 100px auto 40px;
+  padding: 0 20px;
+}
+
+/* Sections */
+.section {
+  margin-bottom: 70px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.section h1,
+.section h2 {
+  width: 100%;
+  color: #222;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.intro-section,
+.mission-vision-section {
+  justify-content: space-between;
+}
+
+/* Text and image containers */
+.text {
+  flex: 1 1 500px;
+}
+
+.image-container {
+  flex: 1 1 450px;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgb(0 0 0 / 0.1);
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+  border-radius: 15px;
+}
+
+.image-container img:hover {
+  transform: scale(1.05);
+}
+
+/* Mission & Vision Grid */
+.mission-vision-grid {
+  display: flex;
+  gap: 30px;
+}
+
+.mission-vision-grid > div {
+  flex: 1;
+  background: #fff9f4;
+  padding: 25px 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(255, 165, 0, 0.3);
+  font-weight: 600;
+  color: #333;
+}
+
+/* Team Section */
+.team-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.team-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.team-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  padding-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-8px);
+}
+
+.team-card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.team-card h3 {
+  margin: 15px 0 5px;
+  color: #222;
+}
+
+.team-card .role {
+  color: #ff7f50;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.team-card .bio {
+  font-size: 14px;
+  color: #555;
+  padding: 0 15px;
+}
+
+/* Unique Section */
+.unique-section h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.unique-list {
+  list-style: none;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  padding: 0;
+  font-size: 18px;
+  color: #444;
+}
+
+.unique-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* Unique image */
+.unique-image {
+  max-width: 700px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.unique-image img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* Testimonials */
+.testimonial-section {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 30px;
+  margin-left: 90px;
+}
+
+.testimonial-section blockquote {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.07);
+  font-style: italic;
+  color: #555;
+  position: relative;
+}
+
+.testimonial-section blockquote footer {
+  margin-top: 15px;
+  font-weight: 700;
+  color: #222;
+}
+
+.testimonial-image img {
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Call to Action */
+.cta-section {
+  background: #ff7f50;
+  color: white;
+  padding: 50px 30px;
+  margin-top: 80px;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 0 10px 30px rgba(255, 127, 80, 0.4);
+}
+
+.cta-section h2 {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.cta-section p {
+  max-width: 600px;
+  margin: 0 auto 35px;
+  font-size: 18px;
+}
+
+.cta-buttons a {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 15px 35px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  box-shadow: 0 6px 20px rgb(255 127 80 / 0.5);
+}
+
+.btn-primary {
+  background: #fff;
+  color: #ff7f50;
+}
+
+.btn-primary:hover {
+  background: #ff9867;
+  color: white;
+}
+
+.btn-secondary {
+  background: #ff9966cc;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background: #ff7f50cc;
+}
+
+.btn-social {
+  background: #e75480cc;
+  color: white;
+}
+
+.btn-social:hover {
+  background: #d94e74cc;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
+.footer a {
+    color: lightblue;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Animation */
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;   
+    }
+}
