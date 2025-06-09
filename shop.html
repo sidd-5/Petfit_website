@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Shop</title>
     <link rel="stylesheet" href="shop.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- Background Video -->
@@ -16,7 +17,10 @@
     <!-- Navbar -->
     <nav class="navbar">
         <a href="index.html"><img src="img/logo.png" height="40" alt="PetFit Logo" /></a>
-        <ul>
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul id="nav-links">
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="abt.html">About Us</a></li>
             <li><a href="shop.html">Shop</a></li>
@@ -47,5 +51,14 @@
             <a href="#">Twitter</a>
         </p>
     </footer>
+
+    <script>
+        const hamburger = document.getElementById("hamburger");
+        const navLinks = document.getElementById("nav-links");
+
+        hamburger.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+    </script>
 </body>
 </html>

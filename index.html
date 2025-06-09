@@ -12,14 +12,17 @@
 
     <!-- Navbar -->
     <nav class="navbar">
-        <a href="index.html"><img src="img/logo.png" height="40" alt="PetFit Logo" /></a>
-        <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="abt.html">About Us</a></li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-    </nav>
+    <a href="index.html"><img src="img/logo.png" height="40" alt="PetFit Logo" /></a>
+    <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+    </div>
+    <ul id="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="abt.html">About Us</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</nav>
     
     <video src="dog.mp4" autoplay muted height="100%" width="100%"></video>
 
@@ -82,6 +85,15 @@
             <a href="#">Twitter</a>
         </p>
     </footer>
+
+    <script>
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.getElementById("nav-links");
+
+    hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+    });
+</script>
 
 </body>
 </html>
